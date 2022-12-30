@@ -1,0 +1,31 @@
+{
+  "name": "rivera",
+  "displayName": "rivera",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "River: Material",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-river.json"
+      },
+      {
+        "label": "River: Material Lighter",
+        "uiTheme": "vs",
+        "path": "./themes/Material-light-river.json"
+      },
+      {
+        "label": "River: Ayu",
+        "uiTheme": "vs",
+        "path": "./themes/Ayu-river.json"
+      }
+    ]
+  }
+}
